@@ -1,0 +1,90 @@
+<mxfile host="app.diagrams.net" modified="2023-07-17T04:16:35.670Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="iNo4wx7jpXAxGhJf1xHf" version="21.6.2" type="device">
+  <diagram name="Page-1" id="FgWv2147lTjUJ80tFdjx">
+    <mxGraphModel dx="1362" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uhzm3GKE210PsW4b6rp4-23" value="Valid user input" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#009900;fontColor=#009900;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="220" as="sourcePoint" />
+            <mxPoint x="360" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uhzm3GKE210PsW4b6rp4-1" value="&lt;div&gt;Standby Mode&lt;/div&gt;&lt;div&gt;windowId = -1&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;spacingTop=0;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="80" y="200" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="uhzm3GKE210PsW4b6rp4-27" value="Invalid user input" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#CC0000;strokeColor=#CC0000;" parent="uhzm3GKE210PsW4b6rp4-1" source="uhzm3GKE210PsW4b6rp4-2" target="uhzm3GKE210PsW4b6rp4-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="50" />
+              <mxPoint x="180" y="120" />
+              <mxPoint x="80" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uhzm3GKE210PsW4b6rp4-2" value="Main: Waits for user input" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;spacingTop=0;" parent="uhzm3GKE210PsW4b6rp4-1" vertex="1">
+          <mxGeometry y="40" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uhzm3GKE210PsW4b6rp4-10" value="WT: Resets bbox" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;spacingTop=0;" parent="uhzm3GKE210PsW4b6rp4-1" vertex="1">
+          <mxGeometry y="60" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uhzm3GKE210PsW4b6rp4-3" value="PID: Drone hovers in place" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;spacingTop=0;" parent="uhzm3GKE210PsW4b6rp4-1" vertex="1">
+          <mxGeometry y="80" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uhzm3GKE210PsW4b6rp4-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#009900;" parent="1" source="uhzm3GKE210PsW4b6rp4-11" target="uhzm3GKE210PsW4b6rp4-36" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uhzm3GKE210PsW4b6rp4-11" value="&lt;div&gt;Ram Mode&lt;/div&gt;&lt;div&gt;windowId = 0&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;spacingTop=0;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="640" y="200" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="uhzm3GKE210PsW4b6rp4-12" value="Main: pass" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;spacingTop=0;" parent="uhzm3GKE210PsW4b6rp4-11" vertex="1">
+          <mxGeometry y="40" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uhzm3GKE210PsW4b6rp4-13" value="WT: pass" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;spacingTop=0;" parent="uhzm3GKE210PsW4b6rp4-11" vertex="1">
+          <mxGeometry y="60" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uhzm3GKE210PsW4b6rp4-14" value="PID: Drone flies straight ahead at max speed" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;spacingTop=0;" parent="uhzm3GKE210PsW4b6rp4-11" vertex="1">
+          <mxGeometry y="80" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uhzm3GKE210PsW4b6rp4-15" value="&lt;div&gt;Approach Mode&lt;/div&gt;&lt;div&gt;windowId &amp;gt; 0&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;spacing=0;spacingTop=0;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="360" y="200" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="uhzm3GKE210PsW4b6rp4-16" value="Main: pass" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;spacing=2;spacingTop=0;" parent="uhzm3GKE210PsW4b6rp4-15" vertex="1">
+          <mxGeometry y="40" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="uhzm3GKE210PsW4b6rp4-17" value="WT: Sets bbox to detection with matching id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;spacingTop=0;spacingBottom=0;whiteSpace=wrap;" parent="uhzm3GKE210PsW4b6rp4-15" vertex="1">
+          <mxGeometry y="60" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uhzm3GKE210PsW4b6rp4-18" value="PID: Drone flies towards bbox centroid" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;spacingTop=0;" parent="uhzm3GKE210PsW4b6rp4-15" vertex="1">
+          <mxGeometry y="90" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uhzm3GKE210PsW4b6rp4-29" value="No detection with matching id found" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.502;entryY=1.048;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#CC0000;fontColor=#CC0000;" parent="1" source="uhzm3GKE210PsW4b6rp4-17" target="uhzm3GKE210PsW4b6rp4-3" edge="1">
+          <mxGeometry x="-0.2657" relative="1" as="geometry">
+            <mxPoint x="160" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="275" />
+              <mxPoint x="540" y="340" />
+              <mxPoint x="160" y="340" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uhzm3GKE210PsW4b6rp4-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#009900;" parent="1" source="uhzm3GKE210PsW4b6rp4-34" target="uhzm3GKE210PsW4b6rp4-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uhzm3GKE210PsW4b6rp4-34" value="Program starts" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="120" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uhzm3GKE210PsW4b6rp4-36" value="&lt;div&gt;Program &lt;br&gt;&lt;/div&gt;&lt;div&gt;ends&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="680" y="120" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uhzm3GKE210PsW4b6rp4-45" value="&lt;div&gt;Bbox size is larger&lt;/div&gt;&lt;div&gt;than threshold&lt;br&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#009900;fontColor=#009900;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="220" as="sourcePoint" />
+            <mxPoint x="640" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
