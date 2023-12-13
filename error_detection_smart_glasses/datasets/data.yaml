@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 6
+names: ['APU_OFF', 'APU_ON', 'ATARM_OFF', 'ATARM_ON', 'SEATBELT_OFF', 'SEATBELT_ON']
+
+roboflow:
+  workspace: eg3301r
+  project: switch-states
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/eg3301r/switch-states/dataset/1
