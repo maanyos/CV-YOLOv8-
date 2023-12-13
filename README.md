@@ -8,8 +8,8 @@ Dataset contains an existing dataset of 1000+ images combined with ~20 more self
 
 
 ### Error detection with smart glasses for pilots
-Not much documentation as I was the only person  
-Dataset consists 210 images of our replica cockpit panel, including positive and negative samples  
-Taking image and labelling image work was distributed between 3 group members  
+Not much documentation as I was the only person working on this project  
+Dataset consists 210 images of our replica cockpit panel, including positive and negative samples:  
+~150 train (70%), ~40 validate (20%), ~20 test (10%)  
+Taking images and labelling images effort was distributed between 3 group members  
 Link to dataset: https://universe.roboflow.com/eg3301r/switch-states  
-Dataset split: ~150 train (70%), ~40 validate (20%), ~20 test (10%)
