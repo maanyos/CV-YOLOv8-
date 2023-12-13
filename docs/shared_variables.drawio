@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" modified="2023-07-17T04:14:43.531Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="AV1rgTrWS24zLabm1z1Y" version="21.6.2" type="device">
+  <diagram name="Page-1" id="lvtqUJb3mnBm95TyYebg">
+    <mxGraphModel dx="1362" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="h27NuzUXr07TPEo-tqpc-1" value="&lt;div&gt;windowId&lt;/div&gt;&lt;div&gt;multiprocessing.value&amp;lt;int&amp;gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="160" y="120" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="h27NuzUXr07TPEo-tqpc-3" value="Int variable representing machine state and window to track if applicable" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="h27NuzUXr07TPEo-tqpc-1" vertex="1">
+          <mxGeometry y="40" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h27NuzUXr07TPEo-tqpc-4" value="&lt;div&gt;-1: Standby mode&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="h27NuzUXr07TPEo-tqpc-1" vertex="1">
+          <mxGeometry y="90" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="h27NuzUXr07TPEo-tqpc-13" value="&lt;div&gt;&amp;gt;0: Approach mode &amp;amp; window to approach&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="h27NuzUXr07TPEo-tqpc-1" vertex="1">
+          <mxGeometry y="110" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h27NuzUXr07TPEo-tqpc-14" value="&lt;div&gt;0: Ram mode&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="h27NuzUXr07TPEo-tqpc-1" vertex="1">
+          <mxGeometry y="140" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="h27NuzUXr07TPEo-tqpc-9" value="&lt;div&gt;windowBbox&lt;/div&gt;&lt;div&gt;multiprocessing.array&amp;lt;double&amp;gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="440" y="120" width="200" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="h27NuzUXr07TPEo-tqpc-10" value="Array of size 4 representing the bounding box of matching window. All values are normalised to (0, 1)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="h27NuzUXr07TPEo-tqpc-9" vertex="1">
+          <mxGeometry y="40" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h27NuzUXr07TPEo-tqpc-11" value="&lt;div&gt;index 0: x coord of bbox center, left=0, right=1&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="h27NuzUXr07TPEo-tqpc-9" vertex="1">
+          <mxGeometry y="90" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h27NuzUXr07TPEo-tqpc-12" value="index 1: y coord of bbox center, top=0, bottom=1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="h27NuzUXr07TPEo-tqpc-9" vertex="1">
+          <mxGeometry y="120" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h27NuzUXr07TPEo-tqpc-15" value="index 2: x width of bbox" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="h27NuzUXr07TPEo-tqpc-9" vertex="1">
+          <mxGeometry y="150" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="h27NuzUXr07TPEo-tqpc-16" value="index 3: y height of bbox" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="h27NuzUXr07TPEo-tqpc-9" vertex="1">
+          <mxGeometry y="170" width="200" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
